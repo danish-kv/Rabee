@@ -356,7 +356,7 @@ const ConnectGrow = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 mb-8">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/918086790180"
+                href="https://wa.me/918086791080"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative flex items-center gap-4 w-full rounded-2xl px-6 py-5 min-h-[76px]
@@ -370,7 +370,7 @@ const ConnectGrow = () => {
                 </div>
                 <div className="leading-tight">
                   <div className="text-xs text-green-100/90">WhatsApp</div>
-                  <div className="text-lg sm:text-xl font-semibold">+91 8086790180</div>
+                  <div className="text-lg sm:text-xl font-semibold">+91 8086791080</div>
                 </div>
               </a>
 
@@ -407,7 +407,7 @@ const ConnectGrow = () => {
               <p className="text-gray-400 mb-4">Follow us on social media</p>
               <div className="flex justify-center gap-4">
                 <a
-                  href="https://www.instagram.com/p/CuV7PhVSMEv/?hl=en"
+                  href="https://www.instagram.com/conect_grow/"
                   className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-full p-3
                             hover:bg-white/10 hover:border-purple-500/50 transition-all duration-200
                             focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
