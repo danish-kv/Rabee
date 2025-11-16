@@ -121,7 +121,7 @@ const ConnectGrow = () => {
 
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/918086790180', '_blank');
+    window.open('https://wa.me/918086791080', '_blank');
   };
 
   const handleEmail = () => {
@@ -407,7 +407,7 @@ const ConnectGrow = () => {
               <p className="text-gray-400 mb-4">Follow us on social media</p>
               <div className="flex justify-center gap-4">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/p/CuV7PhVSMEv/?hl=en"
                   className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-full p-3
                             hover:bg-white/10 hover:border-purple-500/50 transition-all duration-200
                             focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
