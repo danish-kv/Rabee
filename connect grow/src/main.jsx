@@ -5,8 +5,6 @@ import ConnectGrow from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <HelmetProvider>
       <ConnectGrow />
-     </HelmetProvider>
   </StrictMode>,
 )
