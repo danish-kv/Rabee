@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Menu, X, Mail, Phone, Instagram, MessageCircle, ArrowRight, Sparkles, TrendingUp, Megaphone, Palette, ChevronLeft, ChevronRight } from 'lucide-react';
 import PortfolioStrip from './components/portfolio';
 
@@ -130,6 +131,12 @@ const ConnectGrow = () => {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
+      <Helmet>
+  <title>Connect Grow - Digital Marketing & Poster Design in Malappuram | Social Media Marketing</title>
+  <meta name="description" content="Leading digital marketing agency in Malappuram. Expert social media marketing, Instagram campaigns, and creative poster designs. 500+ projects | 100+ clients. Call: 8086791080" />
+  <link rel="canonical" href="https://connect-grow.vercel.app/" />
+</Helmet>
+
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-xl border-b border-white/10' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-6 py-4">
